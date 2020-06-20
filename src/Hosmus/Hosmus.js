@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import Vibrant from 'node-vibrant'
 import axios from 'axios';
-import Swatches from './Swatches';
+import Swatches from '../components/Swatches';
+import './style.css';
 
 const credentials = {
     id: 'EEEgGplDzD_rhmIum7skhws-rfIQKW9_4ULGSUqj1vE',

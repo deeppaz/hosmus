@@ -1,5 +1,5 @@
 import React from 'react';
-import Hosmus from './components/Hosmus';
+import Hosmus from './Hosmus/Hosmus';
 
 import './App.scss';
 

@@ -26,10 +26,10 @@ function Swatches(props) {
         className="swatch"
         style={{ backgroundColor: item.swatch }}
       ></span>
-      <small className="hexCode">
+      {/* <small className="hexCode">
         {item.swatch}
 
-      </small>
+      </small> */}
     </li>
   );
   return (

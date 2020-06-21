@@ -8,7 +8,7 @@ body {
 
 #container {
     width: 620px;
-    height: 481px;
+    height: 480px;
     display: flex;
     overflow: hidden;
     margin: 0 auto;

@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Hosmus/style.css';
 
 //Copy hex code to clipboard
 const copyToClipboard = (current, props) => {
@@ -25,14 +26,14 @@ function Swatches(props) {
         className="swatch"
         style={{ backgroundColor: item.swatch }}
       ></span>
-      {item.swatch}
+      {/* {item.swatch} */}
     </li>
   );
   return (
     <div
       className="palette-generator__swatches"
     >
-      <ul>{swatches}</ul>
+      <ul id="colors">{swatches}</ul>
     </div>
   );
 }

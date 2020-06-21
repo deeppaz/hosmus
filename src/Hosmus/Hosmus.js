@@ -5,7 +5,8 @@ import Swatches from '../components/Swatches';
 import './style.css';
 
 const credentials = {
-    id: 'EEEgGplDzD_rhmIum7skhws-rfIQKW9_4ULGSUqj1vE',
+    // id: 'EEEgGplDzD_rhmIum7skhws-rfIQKW9_4ULGSUqj1vE',
+    id: 'b7ffe8e3efba93372c464cc90497f32a3825d4fe38d4154d53a5000da26a0f5e',
     base_url: 'https://api.unsplash.com/photos/random'
 }
 
@@ -81,10 +82,10 @@ class Hosmus extends Component {
                     </button>
                 )}
 
-                <div className="content">
+                <div id="container">
                     {this.state.image && (
                         <div className="paletteImage">
-                            <img src={this.state.image.urls.raw + '&w=960'} srcSet={`${this.state.image.urls.raw + '&w=960'} 1x, ${this.state.image.urls.raw + '&w=1920'} 2x`} alt={this.state.image.alt_description} />
+                            <img id="img" src={this.state.image.urls.raw + '&w=960'} srcSet={`${this.state.image.urls.raw + '&w=960'} 1x, ${this.state.image.urls.raw + '&w=1920'} 2x`} alt={this.state.image.alt_description} />
                         </div>
                     )}
 

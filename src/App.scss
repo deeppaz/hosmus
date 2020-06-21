@@ -95,8 +95,8 @@ button {
   animation: buttonAnimation 8s linear infinite;
 
   @media screen and(min-width: $medium) {
-    font-size: 20px;
-    padding: 10px 65px;
+    padding: 5px 10px;
+    margin: 0 0 17px 0;
   }
 
   &:hover,

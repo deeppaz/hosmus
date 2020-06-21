@@ -28,7 +28,13 @@ body {
 }
 
 button {
-    position: sticky;
     font-variant: small-caps;
-    left: 56%;
+}
+
+.hexCode{
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    border-bottom-style: inset;
+    top: auto;
 }

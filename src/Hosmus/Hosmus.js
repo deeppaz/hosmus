@@ -4,6 +4,8 @@ import axios from 'axios';
 import Swatches from '../components/Swatches';
 import './style.css';
 
+import Skeleton from '../Skeleton/Skeleton';
+
 const credentials = {
     id: 'EEEgGplDzD_rhmIum7skhws-rfIQKW9_4ULGSUqj1vE',
     // id: 'b7ffe8e3efba93372c464cc90497f32a3825d4fe38d4154d53a5000da26a0f5e',
@@ -16,6 +18,7 @@ class Hosmus extends Component {
         this.state = {
             image: null,
             showSwatch: false,
+            loadingSkeleton: true,
             swatches: []
         };
 
@@ -31,6 +34,10 @@ class Hosmus extends Component {
     //Get random image from unsplash
     componentDidMount() {
         this.getRandomImage();
+        setInterval(() => {
+            this.setState({ loadingSkeleton: false })
+        }, 3000);
+
     }
 
     getRandomImage = () => {
@@ -72,28 +79,33 @@ class Hosmus extends Component {
     }
     render() {
         return (
-            <div className="hosmusBody">
-                {this.state.swatches[0] && (
-                    <button
-                        style={{ backgroundImage: `repeating-linear-gradient(90deg,${this.state.swatches[0].swatch},${this.state.swatches[1].swatch} 20%,${this.state.swatches[2].swatch} 32%,${this.state.swatches[3].swatch} 48%,${this.state.swatches[4].swatch} 68%,${this.state.swatches[5].swatch} 84%,${this.state.swatches[0].swatch} 100%)` }}
-                        onClick={() => this.getRandomImage()}
-                    >
-                        New Palette
-                    </button>
-                )}
+            this.state.loadingSkeleton ? (
+                <Skeleton />
+            ) : (
+                    <div className="hosmusBody">
+                        {this.state.swatches[0] && (
+                            <button
+                                style={{ backgroundImage: `repeating-linear-gradient(90deg,${this.state.swatches[0].swatch},${this.state.swatches[1].swatch} 20%,${this.state.swatches[2].swatch} 32%,${this.state.swatches[3].swatch} 48%,${this.state.swatches[4].swatch} 68%,${this.state.swatches[5].swatch} 84%,${this.state.swatches[0].swatch} 100%)` }}
+                                onClick={() => this.getRandomImage()}
+                            >
+                                New Palette
+                            </button>
+                        )}
 
-                <div id="container">
-                    {this.state.image && (
-                        <div className="paletteImage">
-                            <img id="img" src={this.state.image.urls.raw + '&w=960'} srcSet={`${this.state.image.urls.raw + '&w=960'} 1x, ${this.state.image.urls.raw + '&w=1920'} 2x`} alt={this.state.image.alt_description} />
+                        <div id="container">
+                            {this.state.image && (
+                                <div className="paletteImage">
+                                    <img id="img" src={this.state.image.urls.raw + '&w=960'} srcSet={`${this.state.image.urls.raw + '&w=960'} 1x, ${this.state.image.urls.raw + '&w=1920'} 2x`} alt={this.state.image.alt_description} />
+                                </div>
+                            )}
+
+                            {this.state.showSwatch && (
+                                <Swatches swatches={this.state.swatches} />
+                            )}
                         </div>
-                    )}
+                    </div>
+                )
 
-                    {this.state.showSwatch && (
-                        <Swatches swatches={this.state.swatches} />
-                    )}
-                </div>
-            </div>
         )
     }
 }

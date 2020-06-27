@@ -36,8 +36,7 @@ class Hosmus extends Component {
         this.getRandomImage();
         setInterval(() => {
             this.setState({ loadingSkeleton: false })
-        }, 3000);
-
+        }, 5000);
     }
 
     getRandomImage = () => {
@@ -45,7 +44,8 @@ class Hosmus extends Component {
             .then(result => {
                 this.setState({
                     showSwatch: false,
-                    image: result.data
+                    image: result.data,
+                    loadingSkeleton: true
                 })
                 this.findSwatches();
             })
@@ -70,7 +70,8 @@ class Hosmus extends Component {
                 }
                 this.setState({
                     showSwatch: true,
-                    swatches: swatchData
+                    swatches: swatchData,
+                    loadingSkeleton: true
                 });
             })
             .catch(error => {

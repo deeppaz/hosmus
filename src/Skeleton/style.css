@@ -55,6 +55,8 @@ body {
     background-size: 40px 100%;
     background-position: left -40px top 0;
     animation: shine 7s cubic-bezier(0.57, 0.06, 0.42, 1.04) infinite;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
 }
 
 @-webkit-keyframes shine {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Vibrant from 'node-vibrant'
 import axios from 'axios';
-import Swatches from '../components/Swatches';
+import Swatches from '../Swatches/Swatches';
 import './style.css';
 
 import Skeleton from '../Skeleton/Skeleton';

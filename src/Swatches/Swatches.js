@@ -2,6 +2,7 @@ import React from 'react';
 import '../Hosmus/style.css';
 import './style.css';
 
+
 //Copy hex code to clipboard
 const copyToClipboard = (current, props) => {
   const text = document.createElement('textarea')
@@ -11,8 +12,8 @@ const copyToClipboard = (current, props) => {
 
   text.select();
   document.execCommand('copy');
-  console.log(text.value)
   document.body.removeChild(text);
+  alert(text.value + " Successful copied!");
 };
 
 //Swatches

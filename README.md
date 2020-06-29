@@ -46,14 +46,6 @@ $ npm start
 
 - feel free to open a issue if there is any problem. <a href="https://github.com/deeppaz/hosmus/issues" target="_blank">check or create new issue</a>.
 
----
-
-- Going into more detail on code and technologies used
-- I utilized this nifty <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheatsheet</a> for this sample `README`.
-
----
-
-
 ## buymeacoffee 
 
 - support me a <a href="https://www.buymeacoffee.com/pure" target="_blank">cup of coffee</a>

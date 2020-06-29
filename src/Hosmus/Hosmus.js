@@ -94,7 +94,7 @@ class Hosmus extends Component {
                                 >
                                     New Palette
                             </button>
-                            <style>{`body {background-color: ${this.state.swatches[1].swatch}`}</style>
+                            <style>{`body {background-color: ${this.state.swatches[0].swatch}`}</style>
                             </div>
                         )}
 

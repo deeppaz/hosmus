@@ -38,6 +38,7 @@ class Hosmus extends Component {
         setInterval(() => {
             this.setState({ loadingSkeleton: false })
         }, 5000);
+
     }
 
     getRandomImage = () => {
@@ -86,12 +87,15 @@ class Hosmus extends Component {
             ) : (
                     <div className="hosmusBody">
                         {this.state.swatches[0] && (
-                            <button
-                                style={{ backgroundImage: `repeating-linear-gradient(90deg,${this.state.swatches[0].swatch},${this.state.swatches[1].swatch} 20%,${this.state.swatches[2].swatch} 32%,${this.state.swatches[3].swatch} 48%,${this.state.swatches[4].swatch} 68%,${this.state.swatches[5].swatch} 84%,${this.state.swatches[0].swatch} 100%)` }}
-                                onClick={() => this.getRandomImage()}
-                            >
-                                New Palette
+                            <div>
+                                <button
+                                    style={{ backgroundImage: `repeating-linear-gradient(90deg,${this.state.swatches[0].swatch},${this.state.swatches[1].swatch} 20%,${this.state.swatches[2].swatch} 32%,${this.state.swatches[3].swatch} 48%,${this.state.swatches[4].swatch} 68%,${this.state.swatches[5].swatch} 84%,${this.state.swatches[0].swatch} 100%)` }}
+                                    onClick={() => this.getRandomImage()}
+                                >
+                                    New Palette
                             </button>
+                            <style>{`body {background-color: ${this.state.swatches[1].swatch}`}</style>
+                            </div>
                         )}
 
                         <div id="container">

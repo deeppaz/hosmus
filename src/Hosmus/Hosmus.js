@@ -3,14 +3,10 @@ import Vibrant from 'node-vibrant'
 import axios from 'axios';
 import Swatches from '../Swatches/Swatches';
 import './style.css';
+import { id, base_url } from '../api/api';
+
 
 import Skeleton from '../Skeleton/Skeleton';
-
-const credentials = {
-    // id: 'EEEgGplDzD_rhmIum7skhws-rfIQKW9_4ULGSUqj1vE',
-    id: 'b7ffe8e3efba93372c464cc90497f32a3825d4fe38d4154d53a5000da26a0f5e',
-    base_url: 'https://api.unsplash.com/photos/random'
-}
 
 class Hosmus extends Component {
     constructor(props) {
@@ -41,7 +37,7 @@ class Hosmus extends Component {
     }
 
     getRandomImage = () => {
-        axios.get(credentials.base_url + '/?client_id=' + credentials.id)
+        axios.get(base_url + '/?client_id=' + id)
             .then(result => {
                 this.setState({
                     showSwatch: false,

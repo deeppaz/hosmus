@@ -5,7 +5,6 @@ import Swatches from '../Swatches/Swatches';
 import './style.css';
 import { id, base_url } from '../api/api';
 
-
 import Skeleton from '../Skeleton/Skeleton';
 
 class Hosmus extends Component {

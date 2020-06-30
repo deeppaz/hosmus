@@ -13,8 +13,40 @@ body {
     overflow: hidden;
     margin: 0 auto;
     box-shadow: 0px 2px 20px -5px rgba(0, 0, 0, 0.8);
-    background: white;
+    background: transparent;
 }
+
+@media only screen and (max-width: 600px) {
+    #container {
+        background-color: lightblue;
+        width: 90%;
+        height: 480px;
+        display: flex;
+        overflow: hidden;
+        margin: 0 auto;
+        box-shadow: 0px 2px 20px -5px rgba(0, 0, 0, 0.8);
+        background: transparent;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    button {
+        padding: 5px 10px;
+        margin: 0px 0px 20px 19px;
+        appearance: none;
+        text-align: center;
+        text-transform: lowercase;
+        font-weight: bold;
+        appearance: none;
+        -webkit-appearance: none;
+        border: 2px solid #000;
+        cursor: pointer;
+        font-size: 12px;
+        background-size: 200% 100%;
+        animation: buttonAnimation 8s linear infinite;
+    }
+}
+
 
 #img {
     object-fit: cover;
@@ -31,7 +63,7 @@ button {
     font-variant: small-caps;
 }
 
-.hexCode{
+.hexCode {
     font-weight: bold;
     font-size: 18px;
     position: absolute;

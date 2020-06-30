@@ -16,6 +16,17 @@ body {
     background: white;
 }
 
+@media only screen and (max-width: 600px) {
+    .SkeletonContainer {
+        width: 90%;
+        height: 480px;
+        display: flex;
+        overflow: hidden;
+        margin: 0 auto;
+        box-shadow: 0px 2px 20px -5px rgba(0, 0, 0, 0.8);
+        background: white;
+    }
+}
 .SkeletonImg {
     box-sizing: border-box;
     display: block;

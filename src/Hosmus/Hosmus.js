@@ -72,7 +72,6 @@ class Hosmus extends Component {
                 this.setState({
                     showSwatch: true,
                     swatches: swatchData,
-                    loadingSkeleton: true
                 });
             })
             .catch(error => {

@@ -36,7 +36,7 @@ class Hosmus extends Component {
     }
 
     getRandomImage = () => {
-        axios.get(base_url + '/?client_id=' + id.two)
+        axios.get(base_url + '/?client_id=' + id.one)
             .then(result => {
                 this.setState({
                     showSwatch: false,

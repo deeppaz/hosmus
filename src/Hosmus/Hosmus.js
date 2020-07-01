@@ -3,7 +3,7 @@ import Vibrant from 'node-vibrant'
 import axios from 'axios';
 import Swatches from '../Swatches/Swatches';
 import './style.css';
-import { id, base_url } from '../api/api';
+import { randomApis, base_url } from '../api/api';
 
 import Skeleton from '../Skeleton/Skeleton';
 
@@ -36,7 +36,7 @@ class Hosmus extends Component {
     }
 
     getRandomImage = () => {
-        axios.get(base_url + '/?client_id=' + id.one)
+        axios.get(base_url + '/?client_id=' + randomApis)
             .then(result => {
                 this.setState({
                     showSwatch: false,

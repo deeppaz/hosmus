@@ -1,10 +1,12 @@
 
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![Dependency Status](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen)](https://gemnasium.com/badges/badgerbadgerbadger) [![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/issues/) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
-<a href="https://hosmus.com"><img src="https://hosmus.com/logo.png" title="FVCproductions" alt="FVCproductions"></a>
+<p align="center">
+  <img src="https://hosmus.com/logo.png" width="150" title="hosmus" alt="hosmus">
+  <h1 align="center">Hosmus</h1>
+  <p align="center">beautiful colors in the photos and see the colors in the photos you wonder</p>
+</p>
 
-# Hosmus
-**beautiful colors in the photos and see the colors in the photos you wonder**
 > Karenin içinde ki hoşluk
 
 > The beauty in the photo
@@ -55,8 +57,12 @@ $ npm start
 
 ---
 
-## License
+<br>
+<br>
+<br>
+<br>
 
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+<p align="center">Homus <a href="https://github.com/deeppaz/hosmus/blob/master/LICENSE">is MIT licensed </a></p>
+<p align="center">
+  <img src="https://hosmus.com/logo.png" width="35" />
+</p>

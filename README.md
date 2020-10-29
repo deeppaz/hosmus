@@ -62,7 +62,7 @@ $ npm start
 <br>
 <br>
 
-<p align="center">Homus <a href="https://github.com/deeppaz/hosmus/blob/master/LICENSE">is MIT licensed </a></p>
+<p align="center">Hosmus <a href="https://github.com/deeppaz/hosmus/blob/master/LICENSE">is MIT licensed </a></p>
 <p align="center">
   <img src="https://hosmus.com/logo.png" width="35" />
 </p>

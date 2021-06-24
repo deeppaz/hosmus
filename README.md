@@ -1,8 +1,10 @@
 
-[![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![Dependency Status](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen)](https://gemnasium.com/badges/badgerbadgerbadger) [![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/issues/) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+[![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) 
+[![Dependency Status](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen)](https://gemnasium.com/badges/badgerbadgerbadger) 
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 <p align="center">
-  <img src="https://hosmus.com/logo.png" width="150" title="hosmus" alt="hosmus">
+  <img src="https://hosmus.vercel.app/logo.png" width="150" title="hosmus" alt="hosmus">
   <h1 align="center">Hosmus</h1>
   <p align="center">beautiful colors in the photos and see the colors in the photos you wonder</p>
 </p>
@@ -35,7 +37,7 @@
 
 ### Clone
 
-- OR Clone this repo to your local machine using `https://github.com/deeppaz/hosmus.git`
+- OR Clone this repo to your local machine using `git clone https://github.com/deeppaz/hosmus.git`
 
 ### Setup
 
@@ -64,5 +66,5 @@ $ npm start
 
 <p align="center">Hosmus <a href="https://github.com/deeppaz/hosmus/blob/master/LICENSE">is MIT licensed </a></p>
 <p align="center">
-  <img src="https://hosmus.com/logo.png" width="35" />
+  <img src="https://hosmus.vercel.app/logo.png" width="35" />
 </p>

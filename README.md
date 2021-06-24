@@ -8,8 +8,7 @@
   <h1 align="center">Hosmus</h1>
   <p align="center">beautiful colors in the photos and see the colors in the photos you wonder</p>
 </p>
-
-> Karenin içinde ki hoşluk 
+ 
 > The beauty in the photo
 
 **Features**
@@ -48,13 +47,6 @@ $ npm start
 ```
 
 - feel free to open a issue if there is any problem. <a href="https://github.com/deeppaz/hosmus/issues" target="_blank">check or create new issue</a>.
-
-## buymeacoffee 
-
-- support me a <a href="https://www.buymeacoffee.com/pure" target="_blank">cup of coffee</a>
-
-[![Support via buymeacoffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://www.buymeacoffee.com/pure)
-
 
 ---
 

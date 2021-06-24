@@ -1,1 +1,14 @@
-/* non-style */
+.hexCodeInfo {
+    position: fixed;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+.hexCode{
+    position: fixed;
+    top: 340px;
+    right: 655px;
+}

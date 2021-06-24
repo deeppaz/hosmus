@@ -9,13 +9,12 @@
   <p align="center">beautiful colors in the photos and see the colors in the photos you wonder</p>
 </p>
 
-> Karenin içinde ki hoşluk
-
+> Karenin içinde ki hoşluk 
 > The beauty in the photo
 
 **Features**
 
-- you can copy the colors in the photo
+- you can copy the colors in the photo as hex code
 - unlimited photo
 - background colors dynamic
 - upload photos(soon)
@@ -37,7 +36,7 @@
 
 ### Clone
 
-- OR Clone this repo to your local machine using `git clone https://github.com/deeppaz/hosmus.git`
+- or Clone this repo to your local machine using `git clone https://github.com/deeppaz/hosmus.git`
 
 ### Setup
 

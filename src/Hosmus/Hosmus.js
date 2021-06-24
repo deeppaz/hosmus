@@ -32,7 +32,6 @@ class Hosmus extends Component {
         setInterval(() => {
             this.setState({ loadingSkeleton: false })
         }, 5000);
-
     }
 
     getRandomImage = () => {
